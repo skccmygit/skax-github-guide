@@ -9,7 +9,7 @@
 * 임시로 만든 사이트로 사내 로컬망에서만 접속 가능합니다. 접속이 불가능한 분만 기존과 같이 기존 Forms 이용 바랍니다.
 * 단, 계정을 신청하려면 다음 깃허브 프로파일 표준을 준수해야 합니다.
 
-[https://github.com/skccmygit/skax-github-guide/blob/main/ghec-profile-guide.pdf](https://github.com/skccmygit/skax-github-guide/blob/main/ghec-profile-guide.pdf)
+[사내용 깃허브 계정 표준](https://github.com/skccmygit/skax-github-guide/blob/main/ghec-profile-guide.pdf)
 
 
 ## 깃허브 사용 주의사항
@@ -17,3 +17,18 @@
 - 깃허브 Enterprise에 조인 후 30일간 활동이 없는 경우, 멤버심 삭제됨
 - 신청한 조직/프로젝트 코드로 깃허브 Enterprise 사용료가 매달 이관 청구됩니다. (CL/AI 사용료 예산이 있어야 함)
 - 깃허브 정책은 계속 업데이트 중이라 변경될 수 있습니다. 
+
+
+## 깃허브 활동 로그 감시
+깃허브 활동 로그 추적은 **소스 관리 및 보안 감사**의 목적이기 때문에 다음의 활동들만 인지됩니다.
+- 소스 관련 작업 (push / pull / commit 등)
+- workflow 실행
+- 리파지토리 환경변수 작업
+- 리파지토리 owner인 경우, 팀 멤버관리 작업
+
+깃허브 활동 로그에서 **인지되지 않는 사용자 활동**은 다음과 같습니다.
+- 웹 화면에서 단순 로그인
+- Issue 생성 및 Comment 등록
+
+따라서, 깃허브에서 소스 및 DevOps 작업에 참여하지 않고 이슈만 관리하는 경우 깃허브 활동 로그에서 추적할 수 없으므로 비활동 휴면 사용자로 간주될 수 있습니다.
+
